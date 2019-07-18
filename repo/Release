@@ -1,8 +1,8 @@
-Origin: mu
-Label: mu repo
+Origin: Mu
+Label: Mu Tweaks
 Suite: stable
 Version: 1.0
-Codename: mu_repo
+Codename: Mu_Tweaks
 Architectures: iphoneos-arm
 Components: main
-Description: mu's Cydia Repository
+Description: Mu's Cydia Repository

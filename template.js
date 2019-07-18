@@ -1,36 +1,36 @@
 //The following annoys the user with some stupid cookie warning.
-function getCookie(cname) {
-    var name = cname + '=';
-    var ca = document.cookie.split(';');
-    for(var i=0; i<ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') c = c.substring(1);
-        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
-    }
-    return '';
-}
-
-function setCookie(cname, cvalue, date) {
-  if (getCookie('agreed') != 'Yes') return;
-    document.cookie = cname + '=' + cvalue + '; ' + expires + 'expires=' + date.toUTCString() + ';';
-}
-
-if (getCookie('agreed') == '') {
-  var r = confirm('In easy words: EU law enforces me to show this alert: This site uses cookies. Click "OK" to continue, "Cancel" to stop. Disable cookies if you do not like them.\n\n\n\
-In complicated words: This site stores information on your terminal equipment in order to provide the given service. Other websites embedded in this website might store information as well.\n\
-Click "OK" to allow information to be stored. Click "Cancel" to stop *this* website from storing information. \
-A cookie to save your choice will be stored either way, as this is information which is strictly necessary in order to provide service which is explicitly requested to store by you.');
-  console.log(r)
-  if (r == true) {
-    var d = new Date();
-    d.setTime(d.getTime() + 31536000000);
-    document.cookie = 'agreed=Yes; expires=' + d.toUTCString() + ';';
-  } else {
-    var d = new Date();
-    d.setTime(d.getTime() + 31536000000);
-    document.cookie = 'agreed=No; expires=' + d.toUTCString() + ';';
-  }
-}
+//function getCookie(cname) {
+//    var name = cname + '=';
+//    var ca = document.cookie.split(';');
+//    for(var i=0; i<ca.length; i++) {
+//        var c = ca[i];
+//        while (c.charAt(0)==' ') c = c.substring(1);
+//        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+//    }
+//    return '';
+//}
+//
+//function setCookie(cname, cvalue, date) {
+//  if (getCookie('agreed') != 'Yes') return;
+//    document.cookie = cname + '=' + cvalue + '; ' + expires + 'expires=' + date.toUTCString() + ';';
+//}
+//
+//if (getCookie('agreed') == '') {
+//  var r = confirm('In easy words: EU law enforces me to show this alert: This site uses cookies. Click "OK" to continue, "Cancel" to stop. Disable cookies if you do not like them.\n\n\n\
+//In complicated words: This site stores information on your terminal equipment in order to provide the given service. Other websites embedded in this website might store information as well.\n\
+//Click "OK" to allow information to be stored. Click "Cancel" to stop *this* website from storing information. \
+//A cookie to save your choice will be stored either way, as this is information which is strictly necessary in order to provide service which is explicitly requested to store by you.');
+//  console.log(r)
+//  if (r == true) {
+//    var d = new Date();
+//    d.setTime(d.getTime() + 31536000000);
+//    document.cookie = 'agreed=Yes; expires=' + d.toUTCString() + ';';
+//  } else {
+//    var d = new Date();
+//    d.setTime(d.getTime() + 31536000000);
+//    document.cookie = 'agreed=No; expires=' + d.toUTCString() + ';';
+//  }
+//}
 
 //The following loads the website layout.
 var title = document.getElementById('title').innerHTML;
@@ -41,7 +41,7 @@ var template = '\
 <head> \
 	<meta http-equiv="content-type" content="text/html" charset="utf-8"/> \
 	<meta charset="UTF-8"> \
-	<link rel="shortcut icon" href="/Files/H6nry-Icon.png"> \
+	<link rel="shortcut icon" href="/Files/Mu-Icon.png"> \
 	<meta name="robots" content="index,follow"> \
 	<meta http-equiv="cache-control" content="Public|Private"> \
 	<title>'+title+'</title> \
@@ -50,7 +50,7 @@ var template = '\
 <body class="tp-dync2"> \
 \
 <header class="tp-dync" align="center" style="background-color:#77ffff; font-family: serif; width:100%;"> \
-	<h1>H6nry\'s page</h1> \
+	<h1>Mu\'s page</h1> \
 	"A different kind of magic." \
 </header> \
  \
@@ -65,7 +65,7 @@ var template = '\
 	<a href="/surutcra.html">Surutcra - A Twitter client</a><br><br> \
 	<a href="/ncforward.html">NCForward - Forward your notifications</a><br><br> \
     <a href="/common-theos-problems.html">A collection of common THEOS problems</a><br><br> \
-	<a href="http://github.com/H6nry/" target="_blank">Github</a><br><br> \
+	<a href="http://github.com/Mu/" target="_blank">Github</a><br><br> \
 </nav> \
 <aside class="tp-dync"> \
 	<h4>News</h4> \

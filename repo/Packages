@@ -1,18 +1,18 @@
 Package: com.mu.dyTweak
 Version: 1.0.0
 Priority: optional
-Section: System
+Section: 抖音
 Maintainer: 
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: 
 Replaces: 
 Architecture: iphoneos-arm
-Filename: debs//dy/com.mu.dyTweak_1.0.0_iphoneos-arm.deb
-Size: 307242
-MD5sum: 22cc74045b957fb6b5927ab97fcb1cbf
+Filename: debs//com.mu.dyTweak_1.0.0_iphoneos-arm.deb
+Size: 307252
+MD5sum: 7e87fe9129c683579ddae7facc2f2054
 Description: 
-Name: dyTweak
-Author: mu
+Name: DYTweak
+Author: Mu
 Homepage: 
 Depiction: 
 Icon: 
