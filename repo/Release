@@ -1,0 +1,8 @@
+Origin: mu
+Label: mu repo
+Suite: stable
+Version: 1.0
+Codename: mu_repo
+Architectures: iphoneos-arm
+Components: main
+Description: mu's Cydia Repository
