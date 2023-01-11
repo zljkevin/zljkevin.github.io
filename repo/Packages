@@ -17,56 +17,61 @@ Homepage:
 Depiction: 
 Icon: 
 
-Package: com.mu.AutoUnlock
-Version: 0.1-1
-Priority: optional
+Package: com.hacker.cmdserverd
+Version: 0.0.1-5+debug
 Section: System
-Maintainer: 
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: 
-Replaces: 
+Maintainer: hacker
 Architecture: iphoneos-arm
-Filename: debs//com.mu.AutoUnlock_0.1-1_iphoneos-arm.deb
-Size: 36212
-MD5sum: 0663da9a99b769fabbfd97a4a9edadd2
-Description: 
-Name: AutoUnlock
-Author: vd
-Homepage: 
-Depiction: 
-Icon: 
-
-Package: com.mu.SMS
-Version: 1.0.0
-Priority: optional
-Section: Tweaks
-Maintainer: 
-Depends: firmware (>= 8.0), mobilesubstrate
-Conflicts: 
-Replaces: 
-Architecture: iphoneos-arm
-Filename: debs//com.mu.SMS_1.0.0_iphoneos-arm.deb
-Size: 179500
-MD5sum: a41f2b37b8be715cd08fa8cb404bc750
-Description: SMS
-Name: SMS
-Author: vd
-Homepage: 
-Depiction: 
-Icon: 
-
-Package: com.naken.iosred
-Version: 0.0.1-10+debug
-Section: System
-Maintainer: Mu
-Architecture: iphoneos-arm
-Filename: debs//com.naken.iosred_0.0.1-10+debug_iphoneos-arm.deb
-Size: 4564
-Installed-Size: 200
-MD5sum: 75507cd33447d6e2e4b71585135c493b
+Filename: debs//com.hacker.cmdserverd_0.0.1-5+debug_iphoneos-arm.deb
+Size: 5390
+Installed-Size: 76
+MD5sum: 14f47585e4a35fd7edf21e9f929091f8
 Description: An awesome tool of some sort!!
-Name: iOSREd
-Author: Mu
+Name: cmdserverd
+Author: hacker
+
+Package: com.xia0.fakelocationx
+Version: 6.4-1
+Section: Tweaks
+Maintainer: xia0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//com.xia0.fakelocationx_6.4-1_iphoneos-arm.deb
+Size: 1008258
+Installed-Size: 2540
+MD5sum: 14c5e20453b387b69e01c8f1813db115
+Description: The Best Fake Location Tweak xia0Dev Edition
+Name: FakeLocationX
+Author: xia0 & Lakr
+Icon: file:///Library/PreferenceBundles/fakelocationpre.bundle/icon@2x.png
+
+Package: com.xia0.filzax
+Version: 1.0-4
+Section: Tweaks
+Maintainer: xia0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//com.xia0.filzax_1.0-4_iphoneos-arm.deb
+Size: 5172
+Installed-Size: 136
+MD5sum: a9bb7a9f38903e4ecbf2b738d6edb408
+Description: Filza Crack! (xia0Dev Edition)
+Name: FilzaX
+Author: xia0
+
+Package: com.xia0.xflex
+Version: 0.2-3-1+debug
+Section: Tweaks
+Maintainer: xia0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs//com.xia0.xflex_0.2-3-1+debug_iphoneos-arm.deb
+Size: 1094508
+Installed-Size: 3648
+MD5sum: 04a9ddf85a1bd16c342f5c6682e0310f
+Description: FLEX enable/disable in 3D touch/shortcut.
+Name: XFLEX
+Author: xia0
 
 Package: walen.WeChatAccountInfo
 Version: 0.1-1
@@ -83,25 +88,6 @@ MD5sum: 7702a6ebf22a51440936ad4a677e9b48
 Description: 
 Name: (3.3)输入62提取信息
 Author: walen
-Homepage: 
-Depiction: 
-Icon: 
-
-Package: wd.bjxh
-Version: 0.1-1
-Priority: optional
-Section: System
-Maintainer: 
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: 
-Replaces: 
-Architecture: iphoneos-arm
-Filename: debs//wd.bjxh_0.1-1_iphoneos-arm.deb
-Size: 159804
-MD5sum: bced59942bc51dfe8cc97fbc3f962d92
-Description: 
-Name: bjxh
-Author: vd
 Homepage: 
 Depiction: 
 Icon: 
