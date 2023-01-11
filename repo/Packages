@@ -1,0 +1,108 @@
+Package: Reveal2Loader
+Version: 1.0-3
+Priority: optional
+Section: System
+Maintainer: duyongchao <duyongchao.h@gmail.com>
+Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader, com.zidaneno5.ExtensionList
+Conflicts: com.rheard.rhrevealloader, com.rheard.reveal-loader
+Replaces: com.rheard.rhrevealloader, com.rheard.reveal-loader
+Architecture: iphoneos-arm
+Filename: debs//Reveal2Loader_1.0-3_iphoneos-arm.deb
+Size: 4338590
+MD5sum: e2045b2175b162f3cc358ce6040834d8
+Description: dynamically loads Reveal v21(11690) into applications and plugins.
+Name: Reveal2Loader
+Author: duyongchao <duyongchao.h@gmail.com>
+Homepage: 
+Depiction: 
+Icon: 
+
+Package: com.mu.AutoUnlock
+Version: 0.1-1
+Priority: optional
+Section: System
+Maintainer: 
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Architecture: iphoneos-arm
+Filename: debs//com.mu.AutoUnlock_0.1-1_iphoneos-arm.deb
+Size: 36212
+MD5sum: 0663da9a99b769fabbfd97a4a9edadd2
+Description: 
+Name: AutoUnlock
+Author: vd
+Homepage: 
+Depiction: 
+Icon: 
+
+Package: com.mu.SMS
+Version: 1.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: 
+Depends: firmware (>= 8.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Architecture: iphoneos-arm
+Filename: debs//com.mu.SMS_1.0.0_iphoneos-arm.deb
+Size: 179500
+MD5sum: a41f2b37b8be715cd08fa8cb404bc750
+Description: SMS
+Name: SMS
+Author: vd
+Homepage: 
+Depiction: 
+Icon: 
+
+Package: com.naken.iosred
+Version: 0.0.1-10+debug
+Section: System
+Maintainer: Mu
+Architecture: iphoneos-arm
+Filename: debs//com.naken.iosred_0.0.1-10+debug_iphoneos-arm.deb
+Size: 4564
+Installed-Size: 200
+MD5sum: 75507cd33447d6e2e4b71585135c493b
+Description: An awesome tool of some sort!!
+Name: iOSREd
+Author: Mu
+
+Package: walen.WeChatAccountInfo
+Version: 0.1-1
+Priority: optional
+Section: System
+Maintainer: 
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Architecture: iphoneos-arm
+Filename: debs//walen.WeChatAccountInfo.deb
+Size: 2331620
+MD5sum: 7702a6ebf22a51440936ad4a677e9b48
+Description: 
+Name: (3.3)输入62提取信息
+Author: walen
+Homepage: 
+Depiction: 
+Icon: 
+
+Package: wd.bjxh
+Version: 0.1-1
+Priority: optional
+Section: System
+Maintainer: 
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Architecture: iphoneos-arm
+Filename: debs//wd.bjxh_0.1-1_iphoneos-arm.deb
+Size: 159804
+MD5sum: bced59942bc51dfe8cc97fbc3f962d92
+Description: 
+Name: bjxh
+Author: vd
+Homepage: 
+Depiction: 
+Icon: 
+
